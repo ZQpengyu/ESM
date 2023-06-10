@@ -8,7 +8,7 @@ Pengyu Zhao; Shoujin Wang; Wenpeng Lu*; Xueping Peng;  Weiyu Zhang; Chaoqun Zhen
 The models trained by us can be downloaded from Baidu Netdisk:   
 
 # Preparation
-## 0. Requirement
+## Requirement
 python=3.6.13
 pytorch=1.10.0
 cudatoolkit = 10.2.89
@@ -17,22 +17,22 @@ scikit-learn=0.24.2
 torchtext = 0.11.0
 torchvision=0.11.0
 
-## 1.Data Preparation
+## Data Preparation
 The dataset is MIND dataset.
 
 MIND: A Large-scale Dataset for News Recommendation, https://aclanthology.org/2020.acl-main.331/.
 
-## 2.Data Preprocess
+## Data Preprocess
 python ESM_500K/prepare_MIND_dataset.py
 
 python ESM_Large/prepare_MIND_dataset.py
 
-## 3.Train
+## Train
 python ESM_500K/main.py    
  
 python ESM_Large/main.py   
 
-## 4.Generate Event Channel Lable
+## Generate Event Channel Lable
 We have already provided the generated event channel labels, which are stored in the corresponding folder. If you want to generate the labels yourself, please run the following code
 
 python ESM_Large/tfidf_17.py
