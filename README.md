@@ -33,11 +33,28 @@ python ESM_500K/main.py
 python ESM_Large/main.py   
 
 ## 4.Generate Event Channel Lable
-We provide the file of generated event channel label. If you want to obtain the generated event channel label by yourself, you need to run the followed code:
+We have already provided the generated event channel labels, which are stored in the corresponding folder. If you want to generate the labels yourself, please run the following code
 
 python ESM_Large/tfidf_17.py
 
 python ESM_Large/tfidf_10.py
+
+## Acknowledgement
+Any scientific publications that use our codes should cite the following paper as the reference:
+<pre><code>
+ @article{ESM-2023, 
+    author    = {Pengyu Zhao,
+                Shoujin Wang,
+                Wenpeng Lu, 
+                Xueping Peng,  
+                Weiyu Zhang,
+                Chaoqun Zheng, 
+                Yonggang Huang }, 
+   title     = {News Recommendation via Jointly Modeling Event Matching and Style Matching}, 
+   journal   = {{European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2023}}, 
+   year      = {2023} 
+ }
+</code></pre>
 
 
 
