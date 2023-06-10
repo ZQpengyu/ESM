@@ -42,7 +42,7 @@ python ESM_Large/tfidf_10.py
 ## Acknowledgement
 Any scientific publications that use our codes should cite the following paper as the reference:
 <pre><code>
- @article{ESM-2023, 
+ @inproceedings{ESM-2023, 
     author    = {Pengyu Zhao,
                 Shoujin Wang,
                 Wenpeng Lu, 
@@ -51,7 +51,7 @@ Any scientific publications that use our codes should cite the following paper a
                 Chaoqun Zheng, 
                 Yonggang Huang }, 
    title     = {News Recommendation via Jointly Modeling Event Matching and Style Matching}, 
-   journal   = {{European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2023}}, 
+   booktitle   = {{Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases}}, 
    year      = {2023} 
  }
 </code></pre>
