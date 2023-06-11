@@ -23,6 +23,8 @@ The dataset is MIND dataset.
 MIND: A Large-scale Dataset for News Recommendation, https://aclanthology.org/2020.acl-main.331/.
 
 ## Data Preprocess
+We have uploaded the processed dataset to Baidu Netdisk. If you wish to handle it yourself, you can run the following files separately.
+
 python ESM_500K/prepare_MIND_dataset.py
 
 python ESM_Large/prepare_MIND_dataset.py
