@@ -5,7 +5,7 @@ This is our Pytorch implementation for the paper:
 Pengyu Zhao; Shoujin Wang; Wenpeng Lu*; Xueping Peng;  Weiyu Zhang; Chaoqun Zheng; Yonggang Huang. News Recommendation via Jointly Modeling Event Matching and Style Matching, European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases 2023.
 
 
-The models trained by us and the splitted data can be downloaded from Baidu Netdisk:  https://pan.baidu.com/s/1f7iZNaebsw02X0zXvswb4A   jncb
+The models trained by us and the splitted data can be downloaded from Baidu Netdisk:  https://pan.baidu.com/s/1f7iZNaebsw02X0zXvswb4A   password:jncb
 
 # Preparation
 ## Requirement
