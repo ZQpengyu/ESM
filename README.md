@@ -10,12 +10,19 @@ The models trained by us and the splitted data can be downloaded from Baidu Netd
 # Preparation
 ## Requirement
 python=3.6.13
+
 pytorch=1.10.0
+
 cudatoolkit = 10.2.89
+
 numpy = 1.19.5
+
 scikit-learn=0.24.2
+
 torchtext = 0.11.0
+
 torchvision=0.11.0
+
 
 ## Data Preparation
 The dataset is MIND dataset.
