@@ -13,7 +13,7 @@ python=3.6.13
 
 pytorch=1.10.0
 
-cudatoolkit = 10.2.89
+cudatoolkit = 10.2
 
 numpy = 1.19.5
 
